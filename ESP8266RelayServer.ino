@@ -9,7 +9,7 @@ const char* password = "<your password>";
 ESP8266WebServer server(80);
 
 boolean deviceStates[] = { false, false, false, false };  // Initial state of each relay
-int relays[] = { 14, 12, 13, 16 };  // GPIO pins for each relay
+int relays[] = { 16, 14, 12, 13, 4, 5, 15, 10 };  // GPIO pins for each relay
 
 void setup(void){
 
